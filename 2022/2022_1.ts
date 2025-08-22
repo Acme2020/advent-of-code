@@ -1,4 +1,4 @@
-import { getInput } from "../getInput.js";
+import { getInput } from "../getInput";
 
 const input = getInput("/Users/stefandrescher/Projekte/AoC/2022/input.txt");
 
