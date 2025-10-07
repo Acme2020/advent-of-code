@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-export function getInput(filePath) {
+export function getInput(filePath: string) {
   try {
     const data = readFileSync(filePath);
     return data.toString().split("\n");
